@@ -32,7 +32,7 @@ public class Order {
         for (Dish dish : dishList) {
             System.out.println(dish);
         }
-        System.out.println("Total: $" + total);
+        System.out.println("Total: R$" + total);
     }
 }
 

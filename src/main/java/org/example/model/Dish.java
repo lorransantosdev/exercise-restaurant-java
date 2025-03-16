@@ -1,6 +1,5 @@
 package org.example.model;
 
-
 public class Dish {
 
     private String name;
@@ -21,6 +20,6 @@ public class Dish {
 
     @Override
     public String toString() {
-        return name + " - $" + price + " - " + description;
+        return name + " - R$" + price + " - " + description;
     }
 }
